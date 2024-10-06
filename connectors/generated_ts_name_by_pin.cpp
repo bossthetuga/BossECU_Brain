@@ -8,8 +8,6 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
 		case Gpio::A15: return "Low Side 24 (A15)";
 		case Gpio::A8: return "Low Side 20 (A8)";
-		case Gpio::B14: return "Low Side 1 (B14 v2.1 ONLY)";
-		case Gpio::B15: return "Low Side 2 (B15 v2.1 ONLY)";
 		case Gpio::B7: return "DBW Disable (B7)";
 		case Gpio::B8: return "DBW Control (B8)";
 		case Gpio::B9: return "DBW Direction (B9)";
@@ -50,9 +48,9 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::F3: return "Digital Input 3 (F3)";
 		case Gpio::F4: return "Digital Input 2 (F4)";
 		case Gpio::F5: return "Digital Input 1 (F5)";
-		case Gpio::F7: return "StepEr Direction (F7)";
-		case Gpio::F8: return "StepEr Control (F8)";
-		case Gpio::F9: return "StepEr Disable (F9)";
+		case Gpio::F7: return "Stepper Direction (F7)";
+		case Gpio::F8: return "Stepper Control (F8)";
+		case Gpio::F9: return "Stepper Disable (F9)";
 		case Gpio::G0: return "High Side 7 (G0)";
 		case Gpio::G1: return "High Side 8 (G1)";
 		case Gpio::G2: return "Low Side 11 (G2)";

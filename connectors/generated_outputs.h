@@ -4,8 +4,6 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::B14, // Low Side 1 (B14 v2.1 ONLY)
-	Gpio::B15, // Low Side 2 (B15 v2.1 ONLY)
 	Gpio::F13, // Low Side 1 (F13)
 	Gpio::F14, // Low Side 2 (F14)
 	Gpio::D8, // Low Side 3 (D8)
@@ -42,14 +40,12 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::E10, // High Side 10 (E10)
 	Gpio::E9, // High Side 11 (E9)
 	Gpio::E8, // High Side 12 (E8)
-	Gpio::F7, // StepEr Direction (F7)
-	Gpio::F8, // StepEr Control (F8)
-	Gpio::F9, // StepEr Disable (F9)
+	Gpio::F7, // Stepper Direction (F7)
+	Gpio::F8, // Stepper Control (F8)
+	Gpio::F9, // Stepper Disable (F9)
 	Gpio::B7, // DBW Disable (B7)
 	Gpio::B8, // DBW Control (B8)
 	Gpio::B9, // DBW Direction (B9)
-// "Low Side 1 (B14 v2.1 ONLY)",
-// "Low Side 2 (B15 v2.1 ONLY)",
 // "Low Side 1 (F13)",
 // "Low Side 2 (F14)",
 // "Low Side 3 (D8)",
@@ -86,9 +82,9 @@ Gpio GENERATED_OUTPUTS = {
 // "High Side 10 (E10)",
 // "High Side 11 (E9)",
 // "High Side 12 (E8)",
-// "StepEr Direction (F7)",
-// "StepEr Control (F8)",
-// "StepEr Disable (F9)",
+// "Stepper Direction (F7)",
+// "Stepper Control (F8)",
+// "Stepper Disable (F9)",
 // "DBW Disable (B7)",
 // "DBW Control (B8)",
 // "DBW Direction (B9)",
